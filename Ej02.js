@@ -1,0 +1,1 @@
+import {SumaTotal} from "./src/modules/matematica.";

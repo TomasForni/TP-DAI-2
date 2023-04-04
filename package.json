@@ -1,0 +1,12 @@
+{
+  "name": "tp-dai-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Ej01": "node Ej01.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Forni y Bolan",
+  "license": "ISC"
+}
