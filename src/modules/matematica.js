@@ -1,34 +1,18 @@
-const num1 = 7, num2 = 4, num3 = 23;
-const CantNum = 3; 
-
-function SumaTotal(){
-    let = SumaNumeros;
-    SumaNumeros = num1 + num2 + num3;
-    return SumaNumeros;
+export default function SumaTotal(num1, num2, num3){
+    return num1 + num2 + num3;
 }
 
-function RestaTotal(){
-    let = RestaNumeros;
-    RestaNumeros = num1 - num2 - num3;
-    return RestaNumeros;
+export function RestaTotal(num1, num2, num3){
+    return  num1 - num2 - num3;
 }
 
-function Promedio(){
+function Promedio(num1, num2, num3){
     let Promedio;
     Promedio = num1 + num2 + num3;
-    Promedio = Promedio % CantNum;
+    Promedio = Promedio % 3;
     return Promedio;
 }
 
-f
-o 
-r 
-n 
-i 
-
-m 
-o 
-c 
-o 
-s 
-o 
+export default function Multiplicar(num1, num2){
+    return num1*num2;
+}
